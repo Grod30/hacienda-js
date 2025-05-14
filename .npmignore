@@ -1,0 +1,51 @@
+"files": [
+  "dist",
+  "README.md"
+]
+
+# No incluir dependencias ni archivos de entorno
+node_modules/
+.env
+.env.*
+*.log
+
+# No incluir archivos de pruebas y cobertura
+coverage/
+src/__tests__/
+*.test.ts
+test.ts
+
+# No incluir ejemplos y documentación
+examples/
+docs/
+
+# No incluir archivos de configuración y herramientas de desarrollo
+jest.config.js
+tsconfig.json
+.prettier*
+.eslintrc*
+.vscode/
+.idea/
+
+# No incluir archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+
+# No incluir certificados ni llaves privadas
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+*.cer
+
+# No incluir archivos de control de versiones
+.git
+.gitignore
+
+# No incluir archivos de salida de build redundantes
+build/
+.nyc_output/
+
+# No incluir archivos de empaquetado
+*.tgz

@@ -1,4 +1,4 @@
-# @cuyware/hacienda-js
+#  @hacienda-js
 
 Biblioteca TypeScript para facturación electrónica de Costa Rica (Ministerio de Hacienda).
 
@@ -50,13 +50,13 @@ graph TD
 
 ```bash
 # Usando npm
-npm install @cuyware/hacienda-js
+npm install @hacienda-js
 
 # Usando yarn
-yarn add @cuyware/hacienda-js
+yarn add @hacienda-js
 
 # Usando pnpm
-pnpm add @cuyware/hacienda-js
+pnpm add @hacienda-js
 ```
 
 ## Configuración del Proyecto
@@ -81,7 +81,7 @@ npm test
 ### 1. Configuración Inicial
 
 ```typescript
-import { HaciendaAPI, signXml } from '@cuyware/hacienda-js';
+import { HaciendaAPI, signXml } from '@hacienda-js';
 
 // Crear instancia del API
 const api = new HaciendaAPI({
